@@ -45,6 +45,7 @@ System.out.println("*********대입 연산자**********");
  System.out.println("j <<=2:" +j);
  j = 30;
  j >>>=2;
+ 
  System.out.println("j >>>=2:" +j);
  
 		
