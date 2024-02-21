@@ -1,0 +1,36 @@
+package org.kh.site2;
+//대입 연산자 : 연산 후에 대입하는 연산자 (=+ ,-= , *=, /= , %=, |=, >>=, <<= , >>>=, ^=)
+public class Operation7 {
+
+	public static void main(String[] args) {
+int a = 20;
+int b = 15;
+int c ;
+ a += b;  // a=35 , b=15  a에 15를 더한값을 다시 a에 넣어라
+ b -= a;  // a=35 , b=-20
+ System.out.println("a :"+a);
+ System.out.println("b :"+b);
+ 
+//Q. a값과b값을 바꾸시오 a=35 , b=-20
+//N. 
+ c=a; 
+ a=b;
+ b=c;
+ System.out.println(" 맞교환");
+ System.out.println("a :"+a);
+ System.out.println("b :"+b);
+ System.out.println("c :"+c);
+ 
+ int x = 0b01101;
+ int y = 0b01011;
+ System.out.println("x="+Integer.toBinaryString(x));
+ System.out.println("y="Integer.toBinaryString(y));
+ 
+		
+		
+		
+		
+		
+	}
+
+}
