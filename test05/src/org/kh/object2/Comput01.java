@@ -6,7 +6,7 @@ void fnc1(/*매개변수*/) {
 	System.out.println("메서드1");
 }
 //유형2 반환x 매개변수ㅇ
-void fnc(int a) {
+void fnc2(int a) {
 	System.out.println(a+"를 입력하셧습니다");
 }
 //유형3 반환ㅇ 매개변수x

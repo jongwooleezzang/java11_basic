@@ -10,11 +10,6 @@ public class StudentEx1 {
 		A.eng = 95;
 		A.kor = 98;
 		A.resulting();
-		
-		
-		
-				
 	}
-	
-
 }
+

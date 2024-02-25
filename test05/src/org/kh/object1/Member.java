@@ -20,8 +20,6 @@ package org.kh.object1;
       kim.job ="미치광이 개발자"
       kim.running();       
 */
-
-
 /*
 Q2 회원(Member) 클래스를 작성화되,아이디(id),비밀번호(pw),이메일(email),생년(birth),전화번호(tel)
 등을 요소로 하고 회원 정보를 출력하는 메서드(toString())를 작성하시오
