@@ -7,6 +7,7 @@ public class OverloadEx1 {
 		pro1.print();
 		pro1.print("선풍기");
 		pro1.print(1000);
+		
 	}
 
 }

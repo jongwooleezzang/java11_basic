@@ -20,3 +20,4 @@ public class Student {
 		System.out.println("이름 :" +this.name+"\n총점 :" +this.tot() +"\n평균 :"+avg());
 	}
 }
+

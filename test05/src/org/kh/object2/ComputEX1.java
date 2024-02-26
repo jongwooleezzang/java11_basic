@@ -12,10 +12,16 @@ public class ComputEX1 {
     int a =A.fnc3();
     System.out.println(a);
     System.out.println(A.fnc3());
-    
     String Lee =A.fnc4(75);
     System.out.println(Lee);
-    }
+    fnc1();
+    fnc2(200);
+    System.out.println(fnc3());
+    System.out.println("원의 넓이 :"+fnc4(25));
+    
+	}
+	
+
 //함수(Function) : 정의 호출
 	public static void fnc1() {
 		System.out.println("반환(X),매개 변수(x)");

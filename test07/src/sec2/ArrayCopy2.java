@@ -1,6 +1,6 @@
-package sec1;
+package sec2;
 
-public class OverloadEx2 {
+public class ArrayCopy2 {
 
 	public static void main(String[] args) {
 
