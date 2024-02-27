@@ -13,3 +13,4 @@ public class Loop2 {
 		System.out.println("최소값:"+min);
 	}
 }
+

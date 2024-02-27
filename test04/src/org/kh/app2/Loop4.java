@@ -20,16 +20,17 @@ public class Loop4 {
 		System.out.println("결과 : "+tot);
 		
 		//Q.해당 숫자를 입력하면, 구구단 중 해당 숫자의 단을 출력하시오
-	   Scanner sc = new Scanner(System.in);
-	   System.out.print("단:" );
-	   int n= sc.nextInt();
-	   int j= 0;
-	   while(j<9) {
-		j++;   
-	   }
-	   System.out.println(n+"*" + j + "=" + n * j);
-	   
-	   
-	}
-
+		   Scanner sc = new Scanner(System.in);
+		   System.out.print("단:" );
+		   int n= sc.nextInt();
+		   int j= 0;
+		   while(j<9) {
+			j++;   
+		   System.out.println(n+"*" + j + "=" + (n * j));
+		   }
+		
+			   
+		   }
+		   
+		}
 }

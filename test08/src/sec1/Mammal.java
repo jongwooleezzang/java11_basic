@@ -13,7 +13,7 @@ public class Mammal extends Animal{//Animal 로부터 모든 맴버를 상속받은 Mammal �
 
 	@Override
 	public String print() {
-		return "Mammal ["leg="+leg]";
+		return Mammal ["leg="+leg];
 	}
 	
 }

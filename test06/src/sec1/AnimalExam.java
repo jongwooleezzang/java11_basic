@@ -48,13 +48,13 @@ public class AnimalExam {
 		ani.setWing(2);
 		ani.print();
 		
-	
 		Animal bird = new Animal();
 		bird.setType("조류");
 		bird.setName("독수리");
 		bird.setLeg(2);
 		bird.setWing(2);
 		bird.print();
+		
 		
 		
 		

@@ -7,7 +7,7 @@ public class Brith {
    private int month;
    private int day;
 	//getter,setter
-   public String getName() {
+   	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
@@ -31,7 +31,7 @@ public class Brith {
 	public void setDay(int day) {
 		this.day = day;
 	}
-    public void birth() {
+    void birth() {
 		  System.out.println(year+"-"+month+"-"+day);
     }
 	  public void Birthaddr() {
