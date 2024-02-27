@@ -12,19 +12,14 @@ public class minitest {
 	
 	//Q2.
 	public static void main(String[] args) {
-		/*for(int dan=2; dan <= 9; dan++) {
-			for(int i =1; i <=9; i++) {  
-			System.out.println(dan + "*" + i +"=" + dan * i);
+		for(int j=1; j <= 9; j++) { 
+			for(int i =2; i <=9; i++) {  
+			System.out.print( i + "*" + j +"=" + i * j +"\t");
 			}
+			System.out.println();
+			
+	    }
 		
-		}*/
-		for(int dan=2;) {
-			for(int i =1; i <=9; i++) {  
-			System.out.println(dan + "*" + i +"=" + dan * i);
-			}
 		
-		}
-		
-
-	}
+ }
 }
