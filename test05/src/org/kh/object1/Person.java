@@ -11,7 +11,7 @@ package org.kh.object1;
       }
       
       객체생성시 
-      클래스명 인스턴스 명 = new 생성자함수()
+      클래스명 인스턴스(객체) 명 = new 생성자함수()
       
       Person kim = new Person();
       kim.name ="김기태";
