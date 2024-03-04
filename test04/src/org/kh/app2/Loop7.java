@@ -11,11 +11,8 @@ public class Loop7 {
 		for(int i=0;i<6;i++) {
 			int val = r.nextInt(max + min) + min;
 			System.out.println(val);
-	   
 		}
 		
    }
-	
-	}
-
+}
 

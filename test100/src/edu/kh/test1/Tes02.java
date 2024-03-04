@@ -12,20 +12,26 @@ public class Tes02 {
 		
 		boolean result = false;
 		
-		for(int i=1 ; i<=memberArr.length ; i++) {//1 => 0으로바꿈
+		for(int i=0 ; i<=memberArr.length ; i++) {//1 => 0으로바꿈
 			if(memberArr[i].equals(searhName)) {
 				result =true ;
+				break;
+			}else {
+				result =false ;
 				break;
 			}
 		}
 		  if(result) {
-			  System.out.println("회원이 존재하지 않습니다."); //=> 회원이 존재합니다로 수정
+			  System.out.println("회원이 존재합니다."); //=> 회원이 존재합니다로 수정
 		  }else {
-			  System.out.println("회원이 존재합니다."); //=> 회원이 존재하지 않습니다로 수정
+			  System.out.println("회원이 존재하지않습니다."); //=> 회원이 존재하지 않습니다로 수정
 		  }
 		
 	}
+}
 
 	
+
 	
-}
+
+	

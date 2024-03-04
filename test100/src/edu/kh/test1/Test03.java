@@ -25,7 +25,8 @@ public class Test03 {
 	    list.add(m1);
 	    list.add(m2);
 	    
-		for(Member mem : list) {//이건 그냥왜워야되는건가 // for(int i = 0; i < list.size(); i++)
+		for(Member mem : list) {//이건 그냥왜워야되는건가 // for(int i = 0; i < list.size(); i++)// Member mem = list.get(i);
+            System.out.println("이름 :" + mem.getName());
 			System.out.println("이름 :"+mem.getName());  //=>.getName 게터사용
 			System.out.println("나이 :"+mem.getAge());
 			System.out.println("주소 :"+mem.getAddress());
